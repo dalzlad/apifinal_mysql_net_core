@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\controllers\\ofertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\controllers\\ofertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\models\\tipooferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\models\\tipooferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\models\\oferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\models\\oferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\migrations\\20240522115946_migracionofertatipooferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\migrations\\20240522115946_migracionofertatipooferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\models\\tipooferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\models\\tipooferta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\controllers\\ofertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\controllers\\ofertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\controllers\\tipoofertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\controllers\\tipoofertacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|solutionrelative:apiofertas\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9C5608A-F2D6-4E6F-AE82-2699DE405A4E}|APIOfertas\\APIOfertas.csproj|c:\\users\\57302\\desktop\\implantacion\\apifinal_mysql_net_core\\apiofertas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,19 +42,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240522115946_MigracionOfertaTipoOferta.cs",
-              "DocumentMoniker": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Migrations\\20240522115946_MigracionOfertaTipoOferta.cs",
-              "RelativeDocumentMoniker": "APIOfertas\\Migrations\\20240522115946_MigracionOfertaTipoOferta.cs",
-              "ToolTip": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Migrations\\20240522115946_MigracionOfertaTipoOferta.cs",
-              "RelativeToolTip": "APIOfertas\\Migrations\\20240522115946_MigracionOfertaTipoOferta.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T11:59:58.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TipoOfertaController.cs",
               "DocumentMoniker": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Controllers\\TipoOfertaController.cs",
@@ -67,64 +50,63 @@
               "RelativeToolTip": "APIOfertas\\Controllers\\TipoOfertaController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T03:53:56.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T03:53:56.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "OfertaController.cs",
               "DocumentMoniker": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Controllers\\OfertaController.cs",
               "RelativeDocumentMoniker": "APIOfertas\\Controllers\\OfertaController.cs",
               "ToolTip": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Controllers\\OfertaController.cs",
               "RelativeToolTip": "APIOfertas\\Controllers\\OfertaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T03:41:40.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "APIOfertas\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "APIOfertas\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T03:30:33.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TipoOferta.cs",
               "DocumentMoniker": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Models\\TipoOferta.cs",
               "RelativeDocumentMoniker": "APIOfertas\\Models\\TipoOferta.cs",
               "ToolTip": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Models\\TipoOferta.cs",
               "RelativeToolTip": "APIOfertas\\Models\\TipoOferta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T03:16:37.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Oferta.cs",
               "DocumentMoniker": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Models\\Oferta.cs",
               "RelativeDocumentMoniker": "APIOfertas\\Models\\Oferta.cs",
               "ToolTip": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\Models\\Oferta.cs",
               "RelativeToolTip": "APIOfertas\\Models\\Oferta.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T03:00:54.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\appsettings.json",
               "RelativeDocumentMoniker": "APIOfertas\\appsettings.json",

@@ -8,6 +8,6 @@
         public string NombreTipoOferta { get; set;  }
 
         // Navigation property
-        public ICollection<Oferta> Oferta { get; set; }
+        public ICollection<Oferta> ?Oferta { get; set; }
     }
 }

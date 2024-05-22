@@ -13,7 +13,7 @@
         public int TipoOfertaId { get; set; }   
 
         //Navegacion
-        public TipoOferta TipoOferta { get; set; }
+        public TipoOferta? TipoOferta { get; set; }
 
     }
 }

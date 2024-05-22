@@ -10,7 +10,7 @@ namespace APIOfertas.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
 
-        /* protected override void OnModelCreating(ModelBuilder modelBuilder)
+        /*protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
@@ -20,6 +20,15 @@ namespace APIOfertas.Data
                 .HasForeignKey(o => o.TipoOfertaId);
 
     } */
-    
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<TipoOferta>()//Establecer la relación uno a muchos entre Tipo oferta y Oferta
+                .HasMany(tp => tp.Oferta)
+                .WithOne(p => p.TipoOferta);
+        }
+
     }
 }
