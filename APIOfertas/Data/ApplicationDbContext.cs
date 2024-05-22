@@ -2,26 +2,24 @@
 
 namespace APIOfertas.Data
 {
-    /*  public class ApplicationDbContext : DbContext
-      {
-          public ApplicationDbContext()
-          {
-          }
-
-          public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-          {
-          }
-
-          public DbSet<Oferta> Ofertas { get; set; }
-      }
-  }*/
-
-
     public partial class ApplicationDbContext : DbContext
     {
-        public virtual DbSet<Oferta> Oferta { get; set; }
+        public DbSet<TipoOferta> TipoOferta { get; set; }
+        public DbSet<Oferta> Oferta { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
+
+        /* protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Oferta>()
+                .HasOne(o => o.TipoOferta)
+                .WithMany(to => to.Oferta)
+                .HasForeignKey(o => o.TipoOfertaId);
+
+    } */
+    
     }
 }

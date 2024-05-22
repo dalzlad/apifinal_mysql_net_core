@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QCTn/PhGHoFofZe/1nWWds1AA/az3LybQq/XuMeju6VvdVW/RgSJ1/BbsTF8Rm4Jzl2nHJMwdQDh2kSrvIoN4A==",
+  "dgSpecHash": "tjdDFg2S2XxI9fSMBtRroOLIpDMeRui5xJaGoRz6XNcXU6HiCv9LkKErov1JA8Tz6Ns00xVRfDXSfs9kYmUK9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\57302\\source\\repos\\APIOfertas\\APIOfertas\\APIOfertas.csproj",
+  "projectFilePath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\APIOfertas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\57302\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\57302\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

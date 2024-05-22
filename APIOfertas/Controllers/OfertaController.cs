@@ -34,13 +34,13 @@ namespace APIOfertas.Controllers
             _context.Oferta.Add(oferta);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetOferta", new { id = oferta.OfertaId }, oferta);
+            return CreatedAtAction("GetOferta", new { id = oferta.Id }, oferta);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOferta(int id, Oferta oferta)
         {
-            if (id != oferta.OfertaId)
+            if (id != oferta.Id)
             {
                 return BadRequest();
             }
@@ -83,7 +83,7 @@ namespace APIOfertas.Controllers
 
         private bool OfertaExists(int id)
         {
-            return _context.Oferta.Any(e => e.OfertaId == id);
+            return _context.Oferta.Any(e => e.Id == id);
         }
     }
 }

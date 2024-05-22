@@ -2727,11 +2727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\57302\\source\\repos\\APIOfertas\\APIOfertas\\APIOfertas.csproj",
+      "projectUniqueName": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\APIOfertas.csproj",
       "projectName": "APIOfertas",
-      "projectPath": "C:\\Users\\57302\\source\\repos\\APIOfertas\\APIOfertas\\APIOfertas.csproj",
+      "projectPath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\APIOfertas.csproj",
       "packagesPath": "C:\\Users\\57302\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\57302\\source\\repos\\APIOfertas\\APIOfertas\\obj\\",
+      "outputPath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\57302\\AppData\\Roaming\\NuGet\\NuGet.Config",
