@@ -1,4 +1,5 @@
 ﻿using APIOfertas.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIOfertas.Controllers
@@ -9,6 +10,7 @@ namespace APIOfertas.Controllers
     {
         private readonly ApplicationDbContext _context = context;
 
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Oferta>>> GetOfertas()
         {

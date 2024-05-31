@@ -1,4 +1,7 @@
 using APIOfertas.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,13 +18,28 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+
 // Agregar CORS aquí
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("ReactAppPolicy",
+    options.AddDefaultPolicy(
         builder =>
         {
-            builder.WithOrigins("http://localhost:3000") // Reemplaza con el dominio de tu aplicación React
+            builder.AllowAnyOrigin() // Reemplaza con el dominio de tu aplicación React
                    .AllowAnyMethod()
                    .AllowAnyHeader();
         });
@@ -29,6 +47,9 @@ builder.Services.AddCors(options =>
 
 
 var app = builder.Build();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -40,10 +61,14 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Habilitar CORS
-app.UseCors("ReactAppPolicy");
+app.UseCors();
+
+
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+
+!

@@ -28,6 +28,11 @@ namespace APIOfertas.Data
             modelBuilder.Entity<TipoOferta>()//Establecer la relación uno a muchos entre Tipo oferta y Oferta
                 .HasMany(tp => tp.Oferta)
                 .WithOne(p => p.TipoOferta);
+
+            /*modelBuilder.Entity<Categoria>()//Establecer la relación uno a muchos entre Tipo oferta y Oferta
+            .HasMany(tp => tp.Producto)
+            .WithOne(p => p.Categoria);
+            */
         }
 
     }

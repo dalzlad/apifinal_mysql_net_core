@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\APIOfertas.csproj": {}
+    "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core_token\\APIOfertas\\APIOfertas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\APIOfertas.csproj": {
+    "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core_token\\APIOfertas\\APIOfertas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\APIOfertas.csproj",
+        "projectUniqueName": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core_token\\APIOfertas\\APIOfertas.csproj",
         "projectName": "APIOfertas",
-        "projectPath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\APIOfertas.csproj",
+        "projectPath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core_token\\APIOfertas\\APIOfertas.csproj",
         "packagesPath": "C:\\Users\\57302\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core\\APIOfertas\\obj\\",
+        "outputPath": "C:\\Users\\57302\\Desktop\\IMPLANTACION\\apifinal_mysql_net_core_token\\APIOfertas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\57302\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
